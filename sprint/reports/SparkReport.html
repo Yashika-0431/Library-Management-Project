@@ -1,0 +1,1608 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 29, 2025 11:43:22 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Library</a><a class="dropdown-item" href="#">@Email</a><a class="dropdown-item" href="#">@Chat</a><a class="dropdown-item" href="#">@BookSection</a><a class="dropdown-item" href="#">@search</a><a class="dropdown-item" href="#">@Member</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">View Books in Book Section</p>
+            <p class="text-sm">
+              <span>11:43:23 pm</span> / <span>00:00:06:846</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">View Books in Book Section</h5>
+<span class='badge badge-success'>07.29.2025 11:43:23 pm</span>
+<span class='badge badge-danger'>07.29.2025 11:43:30 pm</span>
+<span class='badge badge-default'>00:00:06:846</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Display all books in section</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.BookServiceStepDef.user_is_on_book_section()">
+                <span>Given user is on the Book section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.BookServiceStepDef.list_of_books_should_be_displayed()">
+                <span>Then list of books should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Search returns matching books</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.BookServiceStepDef.user_is_on_book_section()">
+                <span>Given user is on the Book section</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.BookServiceStepDef.user_enters_search_keyword(java.lang.String)">
+                <span>When user enters "The Complete Stories" as search keyword</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.BookServiceStepDef.relevant_books_should_be_displayed()">
+                <span>Then relevant books should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Chat Support Form</p>
+            <p class="text-sm">
+              <span>11:43:30 pm</span> / <span>00:00:07:584</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Chat Support Form</h5>
+<span class='badge badge-success'>07.29.2025 11:43:30 pm</span>
+<span class='badge badge-danger'>07.29.2025 11:43:37 pm</span>
+<span class='badge badge-default'>00:00:07:584</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Show error for empty mandatory fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.user_is_on_the_chat_form()">
+                <span>Given user is on the Chat form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.user_submits_the_form_with_empty_values()">
+                <span>When user submits the form with empty values</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.error_messages_should_appear_for_all_required_fields_in_chatForm()">
+                <span>Then error messages should appear for all required fields in chat form</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="20"><span class="badge log fail-bg mr-2">Fail</span>Invalid phone number entered</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.user_is_on_the_chat_form()">
+                <span>Given user is on the Chat form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.user_enters_phone_number(java.lang.String)">
+                <span>When user enters phone number "12345"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.ChatSupportStepDef.error_message_for_phone_should_be_shown_as(java.lang.String)">
+                <span>Then error message for phone should be shown as "Phone number must be 10 digits"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (20522b97-c315-4536-8b56-82b10c56ac29)] -> id: yourphoneError] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71420, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 20522b97-c315-4536-8b56-82b10c56ac29
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at pages.ChatSupport.getPhoneError(ChatSupport.java:76)
+	at StepDefination.ChatSupportStepDef.error_message_for_phone_should_be_shown_as(ChatSupportStepDef.java:55)
+	at ✽.error message for phone should be shown as "Phone number must be 10 digits"(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/ChatSupport.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>setup.SetUpHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Test failed. Screenshot saved at: C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Invalid_phone_number_entered_20250729_234337.png
+      </div>
+      <div><b>Screenshot:</b><br><img src='C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Invalid_phone_number_entered_20250729_234337.png' height='400' width='400'/>
+      </div>
+      <div>Failed Screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='reports/screenshots/embedded1.png' src="reports/screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>Submit valid chat support form</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.user_is_on_the_chat_form()">
+                <span>Given user is on the Chat form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.user_fills_all_required_fields_correctly()">
+                <span>When user fills all required fields correctly</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.ChatSupportStepDef.success_message_should_be_shown(java.lang.String)">
+                <span>Then success "Message Sent Successfully" message should be shown</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Email Support Form</p>
+            <p class="text-sm">
+              <span>11:43:37 pm</span> / <span>00:00:01:496</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Email Support Form</h5>
+<span class='badge badge-success'>07.29.2025 11:43:37 pm</span>
+<span class='badge badge-danger'>07.29.2025 11:43:39 pm</span>
+<span class='badge badge-default'>00:00:01:496</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Show error for empty mandatory fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.user_is_on_email_support_form()">
+                <span>Given user is on the Email Support form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.submit_empty_email_form()">
+                <span>When user submits the form with empty mandatory fields</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.validate_email_errors()">
+                <span>Then error messages should be shown for required fields</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="39"><span class="badge log fail-bg mr-2">Fail</span>Invalid email format in 'From' field</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.user_is_on_email_support_form()">
+                <span>Given user is on the Email Support form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.user_enters_as_from_email_and_submits(java.lang.String)">
+                <span>When user enters "invalid.com" as From email and submits</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.LibraryCardStepDef.error_message_should_be_shown(java.lang.String)">
+                <span>Then error message "Enter a valid email" should be shown</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: Unable to locate element: #emailError
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [20522b97-c315-4536-8b56-82b10c56ac29, findElement {using=id, value=emailError}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71420, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 20522b97-c315-4536-8b56-82b10c56ac29
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
+	at pages.LibraryCard.isErrorVisible(LibraryCard.java:146)
+	at StepDefination.LibraryCardStepDef.error_message_should_be_shown(LibraryCardStepDef.java:52)
+	at ✽.error message "Enter a valid email" should be shown(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/EmailSupport.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>setup.SetUpHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Test failed. Screenshot saved at: C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Invalid_email_format_in_'From'_field_20250729_234338.png
+      </div>
+      <div><b>Screenshot:</b><br><img src='C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Invalid_email_format_in_'From'_field_20250729_234338.png' height='400' width='400'/>
+      </div>
+      <div>Failed Screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='reports/screenshots/embedded2.png' src="reports/screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>Submit valid email support form</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.user_is_on_email_support_form()">
+                <span>Given user is on the Email Support form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.user_enters_valid_data_and_submits()">
+                <span>When user enters valid data and submits the form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.EmailSupportStepDef.success_message_should_be_shown_for_email(java.lang.String)">
+                <span>Then success message "Mail Sent Successfully" should be shown</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="51"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Library Card Form Handling</p>
+            <p class="text-sm">
+              <span>11:43:39 pm</span> / <span>00:00:03:091</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Library Card Form Handling</h5>
+<span class='badge badge-success'>07.29.2025 11:43:39 pm</span>
+<span class='badge badge-danger'>07.29.2025 11:43:42 pm</span>
+<span class='badge badge-default'>00:00:03:091</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>Submit empty form</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_is_on_the_library_card_page()">
+                <span>Given user is on the Library Card page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_submits_form_without_data()">
+                <span>When user submits the form without entering any data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.error_messages_should_appear_for_all_required_fields()">
+                <span>Then error messages should appear for all required fields</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log fail-bg mr-2">Fail</span>Show error for invalid email formats</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="59"><span class="badge log fail-bg mr-2">Fail</span>Show error for invalid email formats</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given user is on the Library Card page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters email "test.com" and submits the form</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then error message "Enter a valid email address" should be shown</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at StepDefination.LibraryCardStepDef.error_message_should_be_shown(LibraryCardStepDef.java:52)
+	at ✽.error message "Enter a valid email address" should be shown(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/LibraryCard.feature:12)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>setup.SetUpHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Test failed. Screenshot saved at: C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Show_error_for_invalid_email_formats_20250729_234340.png
+      </div>
+      <div><b>Screenshot:</b><br><img src='C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Show_error_for_invalid_email_formats_20250729_234340.png' height='400' width='400'/>
+      </div>
+      <div>Failed Screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='reports/screenshots/embedded3.png' src="reports/screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="65"><span class="badge log fail-bg mr-2">Fail</span>Invalid phone number entered in library card page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_is_on_the_library_card_page()">
+                <span>Given user is on the Library Card page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_enters_phone_number_on_library_card_page(java.lang.String)">
+                <span>When user enters phone number "12345" on Library Card page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.LibraryCardStepDef.error_message_for_phone_should_be_shown_as_on_library_card_page(java.lang.String)">
+                <span>Then error message for phone should be shown as "Phone number must be 10 digits" on Library Card page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Phone number must be 10 digits] but found [Please Enter the Email]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at StepDefination.LibraryCardStepDef.error_message_for_phone_should_be_shown_as_on_library_card_page(LibraryCardStepDef.java:67)
+	at ✽.error message for phone should be shown as "Phone number must be 10 digits" on Library Card page(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/LibraryCard.feature:21)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>setup.SetUpHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Test failed. Screenshot saved at: C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Invalid_phone_number_entered_in_library_card_page_20250729_234341.png
+      </div>
+      <div><b>Screenshot:</b><br><img src='C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Invalid_phone_number_entered_in_library_card_page_20250729_234341.png' height='400' width='400'/>
+      </div>
+      <div>Failed Screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='reports/screenshots/embedded4.png' src="reports/screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="71"><span class="badge log pass-bg mr-2">Pass</span>Selecting Student shows school name field</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_is_on_the_library_card_page()">
+                <span>Given user is on the Library Card page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_selects_work_type(java.lang.String)">
+                <span>When user selects "Student" as Work Type</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.school_name_field_should_be_displayed()">
+                <span>Then School Name field should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Selecting Employee shows company name field</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_is_on_the_library_card_page()">
+                <span>Given user is on the Library Card page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_selects_work_type(java.lang.String)">
+                <span>When user selects "Employee" as Work Type</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.company_name_field_should_be_displayed()">
+                <span>Then Company Name field should be displayed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="83"><span class="badge log pass-bg mr-2">Pass</span>Submit form with valid data</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_is_on_the_library_card_page()">
+                <span>Given user is on the Library Card page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_fills_valid_data_and_submits()">
+                <span>When user fills all fields with valid data and submits</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.LibraryCardStepDef.user_record_should_appear_in_list()">
+                <span>Then user record should appear in the library card list</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="89"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Membership Form and Member List</p>
+            <p class="text-sm">
+              <span>11:43:42 pm</span> / <span>00:00:01:301</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Membership Form and Member List</h5>
+<span class='badge badge-success'>07.29.2025 11:43:42 pm</span>
+<span class='badge badge-danger'>07.29.2025 11:43:43 pm</span>
+<span class='badge badge-default'>00:00:01:301</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=89</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>Create new membership with valid data</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.MembershipStepDef.user_is_on_the_membership_form()">
+                <span>Given user is on the Membership form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.MembershipStepDef.user_clicks_on_type_of_membership_and_enters_card_number(java.lang.String,java.lang.String)">
+                <span>When user clicks on type of membership "Gold Membership" and enters card number "2300A21"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.MembershipStepDef.message_should_be_shown(java.lang.String)">
+                <span>Then message "Membership Added" should be shown</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="96"><span class="badge log pass-bg mr-2">Pass</span>View all members in list</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.MembershipStepDef.user_is_on_the_member_list_page()">
+                <span>Given user is on the Member List page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.MembershipStepDef.list_of_all_members_should_be_shown()">
+                <span>Then list of all members should be shown</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="101"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Search Books in the Library</p>
+            <p class="text-sm">
+              <span>11:43:43 pm</span> / <span>00:00:15:393</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Search Books in the Library</h5>
+<span class='badge badge-success'>07.29.2025 11:43:43 pm</span>
+<span class='badge badge-danger'>07.29.2025 11:43:59 pm</span>
+<span class='badge badge-default'>00:00:15:393</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=101</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="102"><span class="badge log pass-bg mr-2">Pass</span>Show error for empty search fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.SearchBookStepDef.user_is_on_the_search_page()">
+                <span>Given user is on the search page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.SearchBookStepDef.user_leaves_all_fields_empty_and_clicks_search()">
+                <span>When user leaves all fields empty and clicks search</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.SearchBookStepDef.error_messages_should_appear_for_all_mandatory_fields()">
+                <span>Then error messages should appear for all mandatory fields</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="108"><span class="badge log fail-bg mr-2">Fail</span>Search with all data from Excel</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.SearchBookStepDef.user_is_on_the_search_page()">
+                <span>Given user is on the search page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.SearchBookStepDef.user_performs_book_search_for_all_excel_rows()">
+                <span>When user performs book search for all Excel rows</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Some rows failed:
+Row 2 failed: No books found
+Row 4 failed: No books found
+
+	at StepDefination.SearchBookStepDef.user_performs_book_search_for_all_excel_rows(SearchBookStepDef.java:105)
+	at ✽.user performs book search for all Excel rows(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/SearchBook.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>setup.SetUpHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Test failed. Screenshot saved at: C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Search_with_all_data_from_Excel_20250729_234358.png
+      </div>
+      <div><b>Screenshot:</b><br><img src='C:\Users\varsh\Downloads\sprint\sprint/reports/screenshots/Search_with_all_data_from_Excel_20250729_234358.png' height='400' width='400'/>
+      </div>
+      <div>Failed Screenshot
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='reports/screenshots/embedded5.png' src="reports/screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='24'>Then error message for phone should be shown as "Phone number must be 10 digits"</a>
+<div class="">
+<span class="badge badge-default">Chat Support Form.Invalid phone number entered.Then error message for phone should be shown as "Phone number must be 10 digits"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='32' id='43'>Then error message "Enter a valid email" should be shown</a>
+<div class="">
+<span class="badge badge-default">Email Support Form.Invalid email format in 'From' field.Then error message "Enter a valid email" should be shown</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='63'>Then error message "Enter a valid email address" should be shown</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Show error for invalid email formats.Then error message "Enter a valid email address" should be shown</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='69'>Then error message for phone should be shown as "Phone number must be 10 digits" on Library Card page</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Invalid phone number entered in library card page.Then error message for phone should be shown as "Phone number must be 10 digits" on Library Card page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='101' id='111'>When user performs book search for all Excel rows</a>
+<div class="">
+<span class="badge badge-default">Search Books in the Library.Search with all data from Excel.When user performs book search for all Excel rows</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@Library</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Library</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='52'>Submit empty form</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Submit empty form</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='59'>Show error for invalid email formats</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Show error for invalid email formats</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='65'>Invalid phone number entered in library card page</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Invalid phone number entered in library card page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='71'>Selecting Student shows school name field</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Selecting Student shows school name field</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='77'>Selecting Employee shows company name field</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Selecting Employee shows company name field</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='83'>Submit form with valid data</a>
+<div class="">
+<span class="badge badge-default">Library Card Form Handling.Submit form with valid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Email</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Email</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='32' id='33'>Show error for empty mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Email Support Form.Show error for empty mandatory fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='32' id='39'>Invalid email format in 'From' field</a>
+<div class="">
+<span class="badge badge-default">Email Support Form.Invalid email format in 'From' field</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:38 pm</td>
+<td>
+<a href="#" class="linked" test-id='32' id='45'>Submit valid email support form</a>
+<div class="">
+<span class="badge badge-default">Email Support Form.Submit valid email support form</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Chat</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Chat</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='14'>Show error for empty mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Chat Support Form.Show error for empty mandatory fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:30 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='20'>Invalid phone number entered</a>
+<div class="">
+<span class="badge badge-default">Chat Support Form.Invalid phone number entered</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='26'>Submit valid chat support form</a>
+<div class="">
+<span class="badge badge-default">Chat Support Form.Submit valid chat support form</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@BookSection</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@BookSection</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Display all books in section</a>
+<div class="">
+<span class="badge badge-default">View Books in Book Section.Display all books in section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Search returns matching books</a>
+<div class="">
+<span class="badge badge-default">View Books in Book Section.Search returns matching books</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@search</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@search</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='101' id='102'>Show error for empty search fields</a>
+<div class="">
+<span class="badge badge-default">Search Books in the Library.Show error for empty search fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:43:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='101' id='108'>Search with all data from Excel</a>
+<div class="">
+<span class="badge badge-default">Search Books in the Library.Search with all data from Excel</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@Member</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Member</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='89' id='90'>Create new membership with valid data</a>
+<div class="">
+<span class="badge badge-default">Membership Form and Member List.Create new membership with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:43:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='89' id='96'>View all members in list</a>
+<div class="">
+<span class="badge badge-default">Membership Form and Member List.View all members in list</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 29, 2025 11:43:22 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 29, 2025 11:43:59 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>4</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'>
+<b>2</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='66%'><b>4</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='72%'><b>13</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='27%'><b>5</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='91%'><b>51</b> steps passed</small></div>
+<div>
+<small data-tooltip='8%'><b>5</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"View Books in Book Section":6.846,"Chat Support Form":7.584,"Email Support Form":1.496,"Library Card Form Handling":3.091,"Membership Form and Member List":1.301,"Search Books in the Library":15.393
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Library</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@Email</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@Chat</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@BookSection</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@search</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@Member</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 4,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 13,
+failChild: 5,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 51,
+failGrandChild: 5,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
