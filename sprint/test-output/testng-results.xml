@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="18" passed="13" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T23:43:22 IST" name="Default suite" finished-at="2025-07-29T23:43:59 IST" duration-ms="37761">
+  <suite started-at="2025-07-31T12:30:35 IST" name="Default suite" finished-at="2025-07-31T12:31:06 IST" duration-ms="30903">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-29T23:43:22 IST" name="Default test" finished-at="2025-07-29T23:43:59 IST" duration-ms="37761">
+    <test started-at="2025-07-31T12:30:35 IST" name="Default test" finished-at="2025-07-31T12:31:06 IST" duration-ms="30903">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:22 IST" name="setUpClass" finished-at="2025-07-29T23:43:23 IST" duration-ms="933" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:35 IST" name="setUpClass" finished-at="2025-07-31T12:30:35 IST" duration-ms="660" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@52fec840]]>
+                <![CDATA[org.testng.TestRunner@4f5c757c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:29 IST" duration-ms="6564" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:41 IST" duration-ms="5303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:30 IST" duration-ms="504" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:41 IST" duration-ms="200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:30 IST" duration-ms="745" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:41 IST" duration-ms="468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:37 IST" duration-ms="6396" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:47 IST" duration-ms="5820" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -84,32 +84,32 @@
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (20522b97-c315-4536-8b56-82b10c56ac29)] -> id: yourphoneError] (tried for 5 second(s) with 500 milliseconds interval)
+              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (d305a98d-7fcc-4260-bc04-7252763f38d3)] -> id: yourphoneError] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71420, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 20522b97-c315-4536-8b56-82b10c56ac29]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 70356, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d305a98d-7fcc-4260-bc04-7252763f38d3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (20522b97-c315-4536-8b56-82b10c56ac29)] -> id: yourphoneError] (tried for 5 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on windows (d305a98d-7fcc-4260-bc04-7252763f38d3)] -> id: yourphoneError] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71420, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 20522b97-c315-4536-8b56-82b10c56ac29
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 70356, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d305a98d-7fcc-4260-bc04-7252763f38d3
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 at pages.ChatSupport.getPhoneError(ChatSupport.java:76)
 at StepDefination.ChatSupportStepDef.error_message_for_phone_should_be_shown_as(ChatSupportStepDef.java:55)
-at ✽.error message for phone should be shown as "Phone number must be 10 digits"(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/ChatSupport.feature:12)
+at ✽.error message for phone should be shown as "Phone number must be 10 digits"(file:///C:/Users/varsh/Downloads/CTS/Hands%20on/Sprint%202/sprint/src/main/java/features/ChatSupport.feature:12)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:37 IST" duration-ms="466" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:48 IST" duration-ms="380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,7 +125,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:38 IST" duration-ms="419" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:48 IST" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,7 +141,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:38 IST" duration-ms="578" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:48 IST" duration-ms="390" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -161,9 +161,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [20522b97-c315-4536-8b56-82b10c56ac29, findElement {using=id, value=emailError}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71420, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 20522b97-c315-4536-8b56-82b10c56ac29]]>
+Command: [d305a98d-7fcc-4260-bc04-7252763f38d3, findElement {using=id, value=emailError}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 70356, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d305a98d-7fcc-4260-bc04-7252763f38d3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #emailError
@@ -171,9 +171,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [20522b97-c315-4536-8b56-82b10c56ac29, findElement {using=id, value=emailError}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 71420, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 20522b97-c315-4536-8b56-82b10c56ac29
+Command: [d305a98d-7fcc-4260-bc04-7252763f38d3, findElement {using=id, value=emailError}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 141.0, moz:accessibilityChecks: false, moz:buildID: 20250717180000, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 70356, moz:profile: C:\Users\varsh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d305a98d-7fcc-4260-bc04-7252763f38d3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -193,14 +193,14 @@ at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invok
 at jdk.proxy2/jdk.proxy2.$Proxy34.isDisplayed(Unknown Source)
 at pages.LibraryCard.isErrorVisible(LibraryCard.java:146)
 at StepDefination.LibraryCardStepDef.error_message_should_be_shown(LibraryCardStepDef.java:52)
-at ✽.error message "Enter a valid email" should be shown(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/EmailSupport.feature:12)
+at ✽.error message "Enter a valid email" should be shown(file:///C:/Users/varsh/Downloads/CTS/Hands%20on/Sprint%202/sprint/src/main/java/features/EmailSupport.feature:12)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:39 IST" duration-ms="509" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:49 IST" duration-ms="335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,7 +216,7 @@ at ✽.error message "Enter a valid email" should be shown(file:///C:/Users/vars
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:40 IST" duration-ms="954" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:50 IST" duration-ms="995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -232,7 +232,7 @@ at ✽.error message "Enter a valid email" should be shown(file:///C:/Users/vars
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:40 IST" duration-ms="372" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:50 IST" duration-ms="318" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -256,14 +256,14 @@ at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
 at StepDefination.LibraryCardStepDef.error_message_should_be_shown(LibraryCardStepDef.java:52)
-at ✽.error message "Enter a valid email address" should be shown(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/LibraryCard.feature:12)
+at ✽.error message "Enter a valid email address" should be shown(file:///C:/Users/varsh/Downloads/CTS/Hands%20on/Sprint%202/sprint/src/main/java/features/LibraryCard.feature:12)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:41 IST" duration-ms="465" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:50 IST" duration-ms="337" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -289,14 +289,14 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at StepDefination.LibraryCardStepDef.error_message_for_phone_should_be_shown_as_on_library_card_page(LibraryCardStepDef.java:67)
-at ✽.error message for phone should be shown as "Phone number must be 10 digits" on Library Card page(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/LibraryCard.feature:21)
+at ✽.error message for phone should be shown as "Phone number must be 10 digits" on Library Card page(file:///C:/Users/varsh/Downloads/CTS/Hands%20on/Sprint%202/sprint/src/main/java/features/LibraryCard.feature:21)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:41 IST" duration-ms="271" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:50 IST" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -312,7 +312,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:41 IST" duration-ms="244" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:51 IST" duration-ms="166" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,7 +328,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:42 IST" duration-ms="801" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:51 IST" duration-ms="503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -344,7 +344,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:43 IST" duration-ms="850" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:52 IST" duration-ms="445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,7 +360,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:43 IST" duration-ms="456" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:52 IST" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,7 +376,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:44 IST" duration-ms="979" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:30:52 IST" duration-ms="370" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -392,7 +392,7 @@ at ✽.error message for phone should be shown as "Phone number must be 10 digit
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-29T23:43:59 IST" duration-ms="14424" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:30:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-31T12:31:05 IST" duration-ms="12921" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -418,14 +418,14 @@ Row 2 failed: No books found
 Row 4 failed: No books found
 
 at StepDefination.SearchBookStepDef.user_performs_book_search_for_all_excel_rows(SearchBookStepDef.java:105)
-at ✽.user performs book search for all Excel rows(file:///C:/Users/varsh/Downloads/sprint/sprint/src/main/java/features/SearchBook.feature:11)
+at ✽.user performs book search for all Excel rows(file:///C:/Users/varsh/Downloads/CTS/Hands%20on/Sprint%202/sprint/src/main/java/features/SearchBook.feature:11)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-29T23:43:59 IST" name="tearDownClass" finished-at="2025-07-29T23:43:59 IST" duration-ms="725" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@36d585c]" started-at="2025-07-31T12:31:05 IST" name="tearDownClass" finished-at="2025-07-31T12:31:06 IST" duration-ms="561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

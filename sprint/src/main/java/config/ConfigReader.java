@@ -11,7 +11,7 @@ public class ConfigReader {
         if (prop == null) {
             prop = new Properties();
             try {
-                FileInputStream fis = new FileInputStream("C:\\Users\\varsh\\Downloads\\sprint\\sprint\\src\\main\\resources\\properties\\Setup.properties");
+                FileInputStream fis = new FileInputStream("src/main/resources/properties/Setup.properties");
                 prop.load(fis);
             } catch (IOException e) {
                 System.out.println("Error loading configuration: " + e.getMessage());
