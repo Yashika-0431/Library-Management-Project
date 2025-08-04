@@ -13,13 +13,7 @@ This project is an automated testing suite developed for a web-based Library Man
 
 ## 📸 Screenshots
 
-> Add your screenshots inside a `/screenshots` folder and update the paths below
-
-### 🖼️ Login Scenario
-![Login Feature](screenshots/login.png)
-
-### 📄 HTML Report Example
-![Report Example](screenshots/report.png)
+> Add your screenshots inside a `/screenshots` folder 
 
 ---
 
@@ -102,71 +96,3 @@ This project is an automated testing suite developed for a web-based Library Man
 
 - ✅ **Sprint Backlog**:  
   Task assignments per module, mapped to test case progress.
-
-
-## 🚀 How to Run the Test Suite
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/library-automation-suite.git
-   cd library-automation-suite
-2. **Build the project**
-
-   ```bash
-   mvn clean install
-   ```
-
-3. **Run tests using TestNG**
-
-   ```bash
-   mvn test
-   ```
-
-4. **Check reports**
-
-   * Generated HTML reports available in the `/target` directory
-
-## 📁 Folder Structure
-
-```text
-.
-├── features/
-│   ├── Login.feature
-│   ├── Dashboard.feature
-│   ├── Registration.feature
-│   └── ...
-├── pages/
-│   ├── LoginPage.java
-│   ├── DashboardPage.java
-│   └── ...
-├── stepDefinitions/
-│   ├── LoginSteps.java
-│   ├── RegistrationSteps.java
-│   ├── Hooks.java
-│   └── ...
-├── runners/
-│   └── TestRunner.java
-├── pom.xml
-└── testng.xml
-```
-
----
-
-## 🪪 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📫 Contact
-
-For queries or collaboration:
-
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-* 💬 GitHub Issues: [Submit here](https://github.com/your-username/library-automation-suite/issues)
-
----
-
-
-
-
