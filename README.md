@@ -91,6 +91,7 @@ This project is an automated testing suite developed for a web-based Library Man
 - Wrote `MembershipStepDef.java` and `SearchBookStepDef.java`
 - Validated Membership and SearchBook workflows
 - Wrote `ScreenshotUtil.java` , `ExcelReader.java` and Excel Data sheet
+- Extent Report and Cucumber Report generation
 
 ---
 
