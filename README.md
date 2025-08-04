@@ -39,7 +39,7 @@ This project is an automated testing suite developed for a web-based Library Man
 - Maven project with dependencies managed via `pom.xml`  
 - Feature files (`*.feature`) written in **Gherkin syntax**  
 - Test execution handled using `testng.xml` and `TestRunner.java`  
-- Web interactions implemented with direct locators (no PageFactory)  
+- Web interactions implemented with PageFactory
 - Input data is hardcoded for each test scenario  
 - Logs and reports generated via hooks and configured reporters  
 
@@ -66,32 +66,31 @@ This project is an automated testing suite developed for a web-based Library Man
 
 - Created BDD-compliant folder structure
 - Configured Maven, dependencies, and project setup
-- Developed `Hooks.java` for:
-  - Browser management
-  - Screenshot capture
-  - Logging and reporting
-- Managed reusable utilities (e.g., wait strategies, config)
+- Developed `SetUpHooks.java` and `DriverSetup.java`
+- Wrote `ConfigReader.java`  
 
-### **Karthik** – Login and Dashboard Features
+### **Karthik** – BookSection and ChatSupport Modules
 
-- Authored `Login.feature` and `Dashboard.feature`
-- Implemented `LoginSteps.java` and `DashboardSteps.java`
-- Developed `LoginPage.java` and `DashboardPage.java`
-- Validated login workflows and dashboard personalization
+- Authored `BookSection.feature` and `ChatSupport.feature`
+- Implemented `BookService.java` and `ChatSupport.java`
+- Wrote `BookServiceStepDef.java` and `ChatSupportStepDef.java`
+- Validated BookSection and ChatSupport workflows
 
-### **Rithusree** – Registration and Search Modules
+### **Rithusree** – EmailSupport and LibraryCard Modules , Properties and Runner file
 
-- Created `Registration.feature` and `Search.feature`
-- Wrote steps in `RegistrationSteps.java` and `SearchSteps.java`
-- Developed `RegistrationPage.java` and `SearchPage.java`
-- Automated registration and search/filter flows
+- Authored `EmailSupport.feature` and `LibraryCard.feature`
+- Implemented `EmailSupport.java` and `LibraryCard.java`
+- Wrote `EmailSupportStepDef.java` and `LibraryCardStepDef.java`
+- Validated EmailSupport and LibraryCard workflows
+- Wrote `TestRunner.java` runner file and `Setup.properties`
 
-### **Yashika** – Product Listing and Checkout Features
+### **Yashika** – Membership and SearchBook Modules , Screenshot and Data driven framework
 
-- Developed `ProductListing.feature` and `Checkout.feature`
-- Mapped Gherkin steps in `ProductListingSteps.java` and `CheckoutSteps.java`
-- Built `ProductListingPage.java` and `CheckoutPage.java`
-- Automated product grid, filtering, and checkout scenarios
+- Authored `Membership.feature` and `SearchBook.feature`
+- Implemented `Membership.java` and `SearchBook.java`
+- Wrote `MembershipStepDef.java` and `SearchBookStepDef.java`
+- Validated Membership and SearchBook workflows
+- Wrote `ScreenshotUtil.java` , `ExcelReader.java` and Excel Data sheet
 
 ---
 
