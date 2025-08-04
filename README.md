@@ -11,12 +11,6 @@ This project is an automated testing suite developed for a web-based Library Man
 
 ---
 
-## 📸 Screenshots
-
-> Add your screenshots inside a `/screenshots` folder 
-
----
-
 ## 🔧 Technologies Used
 
 - **Programming Language:** Java  
