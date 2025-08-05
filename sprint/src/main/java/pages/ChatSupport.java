@@ -14,13 +14,13 @@ import java.util.List;
 public class ChatSupport {
     WebDriver driver;
 
-    @FindBy(id = "chatname")
+    @FindBy(css = "#chatname")
     WebElement nameField;
 
-    @FindBy(id = "yourphone")
+    @FindBy(xpath = "//input[@id='yourphone']")
     WebElement phoneField;
 
-    @FindBy(id = "querychat")
+    @FindBy(xpath ="//input[@id='yourphone']/following::textarea")
     WebElement queryField;
 
     @FindBy(id = "QuerySubmit")
